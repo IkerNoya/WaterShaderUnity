@@ -26,8 +26,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Amplitude: 1
     - _Glossiness: 0.5
     - _Metallic: 0
+    - _Speed: 5
+    - _Steepness: 0.76
+    - _WaveLength: 10
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.30588236, g: 0.5137255, b: 0.64705884, a: 1}
+    - _Direction: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
