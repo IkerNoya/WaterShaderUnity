@@ -16,13 +16,13 @@ public class WaterManager : MonoBehaviour
 
     private void Update()
     {
-        Vector3[] vertices = _meshFilter.mesh.vertices;
-        for (int i = 0; i < vertices.Length; i++)
-        {
-            vertices[i].y = WaveManager.instance.GetWaveHeight(transform.position.x + vertices[i].x);
-        }
-
-        _meshFilter.mesh.vertices = vertices;
-        _meshFilter.mesh.RecalculateNormals();
+        // Vector3[] vertices = _meshFilter.mesh.vertices;
+        // for (int i = 0; i < vertices.Length; i++)
+        // {
+        //     vertices[i].y = WaveManager.instance.GetWaveHeight(transform.position);
+        // }
+        //
+        // _meshFilter.mesh.vertices = vertices;
+        // _meshFilter.mesh.RecalculateNormals();
     }
 }

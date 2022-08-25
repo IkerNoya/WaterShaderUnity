@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
-    [SerializeField] private Material waterMat;
-    
     public static WaveManager instance;
 
     private void Awake()
@@ -20,7 +18,7 @@ public class WaveManager : MonoBehaviour
             Destroy(this);
         }
     }
-    public float GetWaveHeight(float _x)
+    public float GetWaveHeight(Vector3 position)
     {
         return 0;
     }
